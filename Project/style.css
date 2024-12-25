@@ -1,0 +1,80 @@
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    color: #000;
+    font-weight: 700;
+    position: relative;
+}
+
+.navbar-brand{
+    font-weight: 650;
+}
+
+@media(min-width: 991px){
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 2px;
+    background-color: white;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+}
+}
+
+.navbar{
+    background-color:rgb(63, 63, 211);
+}
+
+h1{
+    margin-top: 120px;
+    font-size: 80px;
+    width: 60%;
+    font-weight: 640;
+}
+
+video{
+    position: relative;
+    top: 70px;
+    width: 692px;
+}
+
+.btn1{
+    margin-top: 130px;
+}
+
+.p1{
+    font-size: 23px;
+}
+
+.banner6{
+    margin-top: 100px;
+}
+
+.form-control{
+    width: 240px;
+}
+
+.ab{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    background-color:rgb(22, 6, 112);
+    height: 48vh;
+}

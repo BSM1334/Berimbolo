@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand">Berimbolo</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NC">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="NC">
+            <div class="navbar-nav">
+                <a href="" class="nav-item nav-link ">PRODUCTS</a>
+                <a href="" class="nav-item nav-link ">SERVICES</a>
+                <a href="" class="nav-item nav-link ">ABOUT</a>
+                <a href="" class="nav-item nav-link ">CONTACT US</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+.nav-link:hover, .nav-link:active{
+    color: #000;
+}
